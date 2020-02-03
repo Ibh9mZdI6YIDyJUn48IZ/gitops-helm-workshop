@@ -9,7 +9,7 @@ metadata:
 spec:
   releaseName: podinfo
   chart:
-    git: git@github.com:GHUSER/gitops-helm-workshop
+    git: git@github.com:Ibh9mZdI6YIDyJUn48IZ/gitops-helm-workshop
     ref: master
     path: cluster/charts/podinfo
   values:
@@ -29,4 +29,4 @@ spec:
           proxy_hide_header l5d-server-id;
       path: /
       hosts:
-        - LB-PUBLIC-IP.nip.io
+        - 35.204.202.82.nip.io
