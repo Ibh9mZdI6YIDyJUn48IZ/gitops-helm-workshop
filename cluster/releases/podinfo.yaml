@@ -5,6 +5,7 @@ metadata:
   namespace: prod
   annotations:
     fluxcd.io/ignore: "false"
+    bla: bla
 spec:
   releaseName: podinfo
   chart:
